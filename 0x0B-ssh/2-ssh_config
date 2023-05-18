@@ -1,4 +1,8 @@
 # ssh config file
-Host *
-      PasswordAuthentication no
-      IdentifyFile ~/.ssh/school
+
+Host remote-server
+    HostName <server-ip-address-or-hostname>
+    User <username>
+    IdentityFile ~/.ssh/school
+    PasswordAuthentication no
+
